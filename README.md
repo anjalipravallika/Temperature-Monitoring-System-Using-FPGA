@@ -6,11 +6,13 @@ VERILOG HDL :
 
 Problem statement
 
-Articles which describes few accidents involving temperature
-fluctuations brought the basic idea to the implementation
-Temperature monitoring system on Verilog HDL.
+Articles that describe a few accidents involving temperature
+fluctuations in industries and hospitals caused many critical 
+issues so they are very important to be solved, this brought us 
+the basic idea for the implementation of Temperature monitoring 
+system on Verilog HDL which can be done using FPGA.
 
 Outcome
 
-We will see the result which is temperature on seven segment
-display connected to fpga and control it by adjusting the inputs.
+We will observe the result which is the temperature on seven segment
+display connected to FPGA and control the output digits range by adjusting the inputs.
