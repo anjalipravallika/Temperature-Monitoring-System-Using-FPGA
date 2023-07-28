@@ -1,0 +1,30 @@
+TEST BENCH:
+
+`timescale 1ns / 1ps
+module tb();
+reg[7:0]bin;
+wire buz;
+//reg[7:0]lim1,lim2;
+wire[6:0]dis1,dis2;
+temp_monsys t1(bin,buz,dis1,dis2);
+initial
+begin
+#50 bin = 8'b00000000 ;
+#50 bin = 8'b01111000 ;
+#50 bin = 8'b00111110 ;
+#50 bin = 8'b00010100 ;
+#50 bin = 8'b00010101 ;
+#50 bin = 8'b00010110 ;
+#50 bin = 8'b00010111 ;
+#50 bin = 8'b00011000 ;
+#50 bin = 8'b00011001 ;
+#50 bin = 8'b00011010 ;
+#50 bin = 8'b00011011 ;
+#50 bin = 8'b00011100 ;
+#50 bin = 8'b00011101 ;
+#50 bin = 8'b00011110 ;
+#50 bin = 8'b00101001 ;
+#50 bin = 8'b01110111 ;
+#50 bin = 8'b01111001 ;
+end
+endmodule
